@@ -1,0 +1,20 @@
+# KeyPresser
+
+> Official site for KeyPresser Professional and KeyPresserNext, two Windows keyboard and mouse automation tools. KeyPresser Professional provides separate automation modules. KeyPresserNext combines keyboard, mouse, and image recognition actions in one editable workflow.
+
+> KeyPresser 官网提供两款 Windows 键鼠自动化工具。KeyPresser 专业版提供独立功能模块，KeyPresserNext 将键盘、鼠标和识图动作放在同一个可编辑工作流中。
+
+## Products / 产品
+
+- [KeyPresser Professional](https://keypresser.onepeak.cn/index-en.html): Window recording and playback, background input, image recognition, Mouse Assistant, and Python scripting.
+- [KeyPresser 专业版](https://keypresser.onepeak.cn/): 窗口录制回放、后台键鼠操作、识图、鼠标助手和 Python 脚本。
+- [KeyPresserNext (English)](https://keypresser.onepeak.cn/keypresser-next-en.html): Editable recordings, sequential or independent execution, and a 15-day trial without registration. Continued use requires membership.
+- [KeyPresserNext（中文）](https://keypresser.onepeak.cn/keypresser-next.html): 录制结果可编辑，支持顺序或独立运行。新安装免注册试用 15 天，继续使用需要会员授权。
+
+## Setup and answers / 接入与常见问题
+
+- [MCP and DeepSeek Harness setup](https://keypresser.onepeak.cn/keypresser-next-en.html#agent): Connect an agent to bind windows, edit action rows, run scripts, and test input.
+- [MCP 与 DeepSeek Harness 接入](https://keypresser.onepeak.cn/keypresser-next.html#agent): 绑定窗口、编辑动作行、运行脚本和测试键鼠。
+- [KeyPresser FAQ](https://keypresser.onepeak.cn/index-en.html#faq) · [KeyPresser 常见问题](https://keypresser.onepeak.cn/#faq)
+- [KeyPresserNext FAQ](https://keypresser.onepeak.cn/keypresser-next-en.html#faq) · [KeyPresserNext 常见问题](https://keypresser.onepeak.cn/keypresser-next.html#faq)
+- [Extended product reference / 产品详细说明](https://keypresser.onepeak.cn/llms-full.txt)

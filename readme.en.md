@@ -22,3 +22,7 @@ The source code for the free edition is available in this repository under the [
 ## 4. Custom development
 
 For additional features or custom development, contact **FinnSoft** on WeChat.
+
+## Website maintenance
+
+The official website is deployed from [`website/`](website/README.md) in this repository using GitHub Pages. Its public address remains https://keypresser.onepeak.cn/.

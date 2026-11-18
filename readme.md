@@ -12,5 +12,6 @@
 ## 4. 需要更多功能，请联系我，定制开发
 - 微信：FinnSoft
 
+## 官网维护
 
-
+官网静态文件位于 [`website/`](website/README.md)，由本仓库 GitHub Pages 自动部署，访问地址保持 https://keypresser.onepeak.cn/ 。
