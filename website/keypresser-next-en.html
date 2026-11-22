@@ -78,13 +78,6 @@
           "mainEntity": {
             "@id": "https://keypresser.onepeak.cn/#keypressernext"
           },
-          "primaryImageOfPage": {
-            "@type": "ImageObject",
-            "url": "https://keypresser.onepeak.cn/keypresser-next-preview.png",
-            "width": 782,
-            "height": 822,
-            "caption": "KeyPresserNext interface preview"
-          },
           "speakable": {
             "@type": "SpeakableSpecification",
             "cssSelector": [
@@ -147,12 +140,11 @@
             "New NextCore engine",
             ".kpn configuration with a matching assets folder"
           ],
-          "screenshot": "https://keypresser.onepeak.cn/keypresser-next-preview.png",
           "description": "KeyPresserNext is the next generation of KeyPresser for Windows. With MCP and DeepSeek Harness, agents such as Cursor, Claude Code, and Codex can select windows, edit actions, and run scripts. The NextCore engine runs keyboard, mouse, and image recognition actions sequentially or independently from one editable list. Available now.",
           "url": "https://keypresser.onepeak.cn/keypresser-next-en.html",
           "downloadUrl": "https://share.feijipan.com/s/dc5bGh67",
           "installUrl": "https://share.feijipan.com/s/dc5bGh67",
-          "image": "https://keypresser.onepeak.cn/keypresser-next-preview.png",
+          "image": "https://keypresser.onepeak.cn/keypresser-next-logo.png",
           "publisher": {
             "@id": "https://keypresser.onepeak.cn/#organization"
           },
@@ -560,25 +552,6 @@
             0%, 100% { opacity: 0.85; transform: translateX(-50%) scale(1); }
             50% { opacity: 1; transform: translateX(-50%) scale(1.04); }
         }
-        .hero .preview-block {
-            border-color: rgba(136, 240, 80, 0.18);
-            box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45), 0 0 48px rgba(136, 240, 80, 0.08);
-        }
-        .hero-promo {
-            margin: 40px auto 0;
-            max-width: 1120px;
-            border-radius: var(--radius-lg);
-            overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            background: #0a0b0d;
-            box-shadow: 0 20px 48px rgba(0, 0, 0, 0.35);
-            cursor: zoom-in;
-        }
-        .hero-promo img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
         .feature-grid-tight .feature-card {
             padding: 22px 20px;
         }
@@ -715,31 +688,6 @@
             user-select: none;
         }
         .btn-disabled:hover { transform: none; filter: none; }
-
-        .preview-block {
-            width: fit-content;
-            max-width: 100%;
-            margin: 40px auto 0;
-            padding: 12px;
-            border-radius: 16px;
-            border: 1px solid rgba(136, 240, 80, 0.14);
-            background: rgba(0, 0, 0, 0.35);
-            box-shadow: 0 24px 64px rgba(0, 0, 0, 0.45), 0 0 32px rgba(136, 240, 80, 0.06);
-        }
-        .preview-block img {
-            display: block;
-            width: 782px;
-            height: 822px;
-            max-width: none;
-            border-radius: 8px;
-            cursor: zoom-in;
-        }
-        .preview-caption {
-            margin-top: 10px;
-            font-size: 13px;
-            color: var(--text-muted);
-            text-align: center;
-        }
 
         .section {
             padding: 48px 0;
@@ -932,31 +880,6 @@
         }
         footer a:hover { color: var(--accent-bright); }
 
-        .image-modal {
-            display: none;
-            position: fixed;
-            z-index: 10000;
-            inset: 0;
-            background: rgba(0, 0, 0, 0.9);
-        }
-        .image-modal-content {
-            max-width: 90%;
-            max-height: 90%;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-        .close-modal {
-            position: absolute;
-            top: 20px;
-            right: 35px;
-            color: #fff;
-            font-size: 40px;
-            font-weight: bold;
-            cursor: pointer;
-            z-index: 10001;
-        }
 
         @media (max-width: 800px) {
             .feature-grid,
@@ -968,12 +891,6 @@
                 min-width: min(100%, 200px);
                 width: 100%;
                 max-width: 280px;
-            }
-            .hero-promo { border-radius: 14px; }
-            .preview-block img {
-                width: 100%;
-                height: auto;
-                max-width: 782px;
             }
             .nav-links { gap: 14px; }
             .compare-table { font-size: 0.85rem; }
@@ -1331,19 +1248,7 @@
             <div class="hero-download-buttons">
                 <a class="download-btn primary" href="https://share.feijipan.com/s/dc5bGh67" target="_blank" rel="noopener noreferrer">Download now</a>
             </div>
-            <div class="preview-block">
-                <img src="keypresser-next-preview.png" alt="KeyPresserNext interface showing window binding, action list, run settings, and logs" width="782" height="822" loading="eager" onclick="openImageModal(this.src)">
-                <p class="preview-caption">Interface preview</p>
-            </div>
-            <div class="hero-promo" onclick="openImageModal(this.querySelector('img').src)">
-                <img
-                    src="keypresser-next-promo-1.2.1.png"
-                    alt="KeyPresserNext works with DeepSeek Harness, Cursor, Claude Code, Codex, Trae, and CodeBuddy via MCP or DSH"
-                    width="2820"
-                    height="1200"
-                    loading="lazy"
-                >
-            </div>
+            <p>The desktop interface is currently available in Simplified Chinese.</p>
         </div>
     </header>
 
@@ -1613,23 +1518,5 @@
         </div>
     </footer>
 
-    <div id="imageModal" class="image-modal" onclick="closeImageModal()">
-        <span class="close-modal" onclick="closeImageModal()">&times;</span>
-        <img class="image-modal-content" id="modalImage" alt="Enlarged preview">
-    </div>
-    <script>
-        function openImageModal(src) {
-            var modal = document.getElementById('imageModal');
-            var img = document.getElementById('modalImage');
-            img.src = src;
-            modal.style.display = 'block';
-        }
-        function closeImageModal() {
-            document.getElementById('imageModal').style.display = 'none';
-        }
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape') closeImageModal();
-        });
-    </script>
 </body>
 </html>
