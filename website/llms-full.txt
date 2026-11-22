@@ -83,7 +83,7 @@ Core capabilities:
 6. KeyMouseGo
 7. Hardware edition via Arduino
 8. Python script system
-- English Windows installer: https://github.com/FinnWang-CN/KeyPresser/releases/download/v6.5.1/KeyPresser-6.5.1.exe
+- English Windows installer: https://github.com/FinnWang-CN/KeyPresser/releases/download/v6.5.1/KeyPresser-6.5.1-help-refresh.exe
 
 ## Official product pages
 
