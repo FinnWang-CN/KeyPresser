@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="KeyPresser Professional for Windows. 12 months of access for a one-time payment of US$358.">
+    <meta name="description" content="KeyPresser Professional for Windows. Annual membership with a one-time WeChat Pay payment in Chinese yuan.">
     <title>Pricing | KeyPresser Professional</title>
     <link rel="canonical" href="https://keypresser.onepeak.cn/pricing.html">
     <link rel="icon" href="keypresser.ico">
@@ -17,31 +17,19 @@
     <main class="page-wrap">
         <h1>KeyPresser Professional pricing</h1>
         <section class="offer" aria-label="12-month Professional membership">
-            <p class="price">US$358</p>
-            <p><strong>One payment for 12 months.</strong> No automatic renewal. Applicable taxes are shown at checkout.</p>
+            <p class="price">¥358 <small>CNY</small></p>
+            <p><strong>One payment for an annual membership.</strong> No automatic renewal. Check the current price in the Membership Center.</p>
             <p>Get 12 months of access to the Professional features in the downloadable Windows app, including keyboard and mouse recording and playback, image-based automation, and Python scripting.</p>
-            <p>Sign in to your KeyPresser account before checkout. Once Paddle confirms the payment, the membership is added to that account. If you already have an active term, the 12 months are added to the end of it.</p>
-            <p id="checkout-status">Online checkout is currently unavailable.</p>
-            <a id="buy-membership" class="buy" href="https://keypresservip.progdomain.com/membership.html?lang=en&amp;product=keypresser&amp;tab=paddle" hidden>Continue to checkout</a>
+            <p>Sign in to your KeyPresser account, select the annual plan, and scan the payment QR code in WeChat. After payment is confirmed, the membership is added to your account.</p>
+            <a class="buy" href="https://keypresservip.progdomain.com/membership.html?lang=en&amp;product=keypresser">Open Membership Center</a>
         </section>
         <h2>Billing and support</h2>
-        <p>Paddle is the authorized reseller and handles payment, receipts, and refunds for orders placed through Paddle Checkout. For help using KeyPresser, see the <a href="index-en.html#help">user guide</a> or use the <a href="index-en.html#support">support channels</a>.</p>
+        <p>Checkout uses WeChat Pay and charges in Chinese yuan. Availability of an international bank card depends on what WeChat offers for your payment. For help with the software or an order, use the <a href="index-en.html#support">support channels</a>.</p>
     </main>
     <footer class="site-footer"><nav class="page-wrap" aria-label="Policies">
         <a href="terms.html">Terms of service</a>
         <a href="privacy.html">Privacy policy</a>
         <a href="refunds.html">Refund policy</a>
     </nav></footer>
-    <script>
-        fetch('https://keypresservip.progdomain.com/api/payment/paddle/config', { credentials: 'omit' })
-            .then(response => response.ok ? response.json() : null)
-            .then(config => {
-                if (config?.enabled === true) {
-                    document.getElementById('buy-membership').hidden = false;
-                    document.getElementById('checkout-status').hidden = true;
-                }
-            })
-            .catch(() => {});
-    </script>
 </body>
 </html>
