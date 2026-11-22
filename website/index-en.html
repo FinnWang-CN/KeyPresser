@@ -243,10 +243,10 @@
                 },
                 {
                   "@type": "Question",
-                  "name": "What if antivirus flags the installer?",
+                  "name": "What if Microsoft Defender or 360 flags a KeyPresser file?",
                   "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Antivirus tools can falsely flag keyboard and mouse automation software. Add the installation folder to the trust or exclusion list. The official QQ user group is 901882848."
+                    "text": "Keep protection enabled. Check the affected file and detection name in Windows Security → Protection history, or in the quarantine in 360 Total Security. If dm.dll was quarantined, leave it there while the detection is reviewed. Report the detection name and your KeyPresser version to the developer."
                   }
                 },
                 {
@@ -4136,7 +4136,7 @@
 
         <div class="notice-box fade-in">
             <h4><span>⚠️</span> Important information</h4>
-            <p>Antivirus tools such as 360 can incorrectly flag or remove files during installation. If KeyPresser fails to initialize, check whether any files were quarantined and reinstall from the official download.</p>
+            <p>Microsoft Defender Antivirus or 360 Total Security may flag dm.dll, the automation component used by KeyPresser. If the app fails to initialize, check Protection history in Windows Security or the quarantine in 360. If dm.dll is listed, leave it quarantined and report the detection name and KeyPresser version.</p>
         </div>
         </div>
     </section>
@@ -4604,8 +4604,8 @@
                     <div class="faq-a">The eight modules cover key simulation, image-based key presses, Mouse Assistant, image-based mouse actions, window recording and playback, KeyMouseGo, Arduino hardware, and Python scripting. See <a href="#modules">Features</a>.</div>
                 </details>
                 <details class="faq-item">
-                    <summary>What if antivirus flags the installer?</summary>
-                    <div class="faq-a">Antivirus tools can falsely flag keyboard and mouse automation software. Add the installation folder to the trust or exclusion list. The official QQ user group is 901882848.</div>
+                    <summary>What if Microsoft Defender or 360 flags a KeyPresser file?</summary>
+                    <div class="faq-a">Keep protection enabled. Check the affected file and detection name in Windows Security → Protection history, or in the quarantine in 360 Total Security. If dm.dll was quarantined, leave it there while the detection is reviewed. <a href="https://github.com/FinnWang-CN/KeyPresser/issues">Report the detection</a> with its name and your KeyPresser version.</div>
                 </details>
                 <details class="faq-item">
                     <summary>Does KeyPresser work in the background?</summary>
