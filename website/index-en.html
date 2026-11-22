@@ -4057,19 +4057,8 @@
             <div class="hero-download-buttons">
                 <a href="https://github.com/FinnWang-CN/KeyPresser/releases/download/v6.5.1/KeyPresser-6.5.1-help-refresh.exe" class="download-btn primary">Download for Windows · 6.5.1</a>
                 <a href="https://github.com/FinnWang-CN/KeyPresser/releases/tag/v6.5.1" class="download-btn secondary">Release notes &amp; checksum</a>
+                <a href="pricing.html" class="download-btn secondary">Professional pricing</a>
             </div>
-            <div id="paddle-membership" hidden>
-                <p>12 months of KeyPresser Professional. One-time payment, no automatic renewal.</p>
-                <a href="https://keypresservip.progdomain.com/membership.html?lang=en&amp;product=keypresser&amp;tab=paddle" class="download-btn secondary">Buy membership · US$358</a>
-            </div>
-            <script>
-                fetch('https://keypresservip.progdomain.com/api/payment/paddle/config', { credentials: 'omit' })
-                    .then(response => response.ok ? response.json() : null)
-                    .then(config => {
-                        if (config?.enabled === true) document.getElementById('paddle-membership').hidden = false;
-                    })
-                    .catch(() => {});
-            </script>
         </div>
     </section>
 
@@ -4685,10 +4674,18 @@
                     <a href="#changelog">Changelog</a>
                     <a href="https://ocn1lplwg6gi.feishu.cn/wiki/Ual4wc4SxiKIodkuSSUcpLBTnsc?from=from_copylink" target="_blank" rel="noopener noreferrer">Help</a>
                 </div>
-                <div class="footer-contact">
+                <div class="footer-links">
+                    <h4>Membership</h4>
+                    <a href="pricing.html">Pricing</a>
+                    <a href="terms.html">Terms of service</a>
+                    <a href="privacy.html">Privacy policy</a>
+                    <a href="refunds.html">Refund policy</a>
+                </div>
+                <div class="footer-contact" id="support">
                     <h4>Contact</h4>
                     <a href="https://gitcode.com/wang161019/KeyPresser/discussions/1" target="_blank" rel="noopener noreferrer">Report an issue</a>
                     <a href="https://gitcode.com/wang161019/KeyPresser" target="_blank" rel="noopener noreferrer">Source code</a>
+                    <p>For private account or privacy requests, join the KeyPresser QQ support group (901882848) and message a moderator directly.</p>
                 </div>
             </div>
             <div class="footer-bottom">
