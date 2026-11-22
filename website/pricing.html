@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="KeyPresser Professional for Windows. Annual membership with a one-time WeChat Pay payment in Chinese yuan.">
+    <meta name="description" content="KeyPresser Professional for Windows. One-time payments for annual membership.">
     <title>Pricing | KeyPresser Professional</title>
     <link rel="canonical" href="https://keypresser.onepeak.cn/pricing.html">
     <link rel="icon" href="keypresser.ico">
@@ -20,16 +20,35 @@
             <p class="price">¥358 <small>CNY</small></p>
             <p><strong>One payment for an annual membership.</strong> No automatic renewal. Check the current price in the Membership Center.</p>
             <p>Get 12 months of access to the Professional features in the downloadable Windows app, including keyboard and mouse recording and playback, image-based automation, and Python scripting.</p>
-            <p>Sign in to your KeyPresser account, select the annual plan, and scan the payment QR code in WeChat. After payment is confirmed, the membership is added to your account.</p>
+            <p>Sign in to your KeyPresser account, select the annual plan, and follow the payment instructions in Alipay. After payment is confirmed, the membership is added to your account.</p>
             <a class="buy" href="https://keypresservip.progdomain.com/membership.html?lang=en&amp;product=keypresser">Open Membership Center</a>
         </section>
+        <section id="international-membership" hidden>
+            <h2>International payments</h2>
+            <div class="offer">
+                <p class="price">US$358</p>
+                <p><strong>One PayPal payment for 12 months.</strong> No automatic renewal.</p>
+                <p>Sign in before checkout. Your membership is activated automatically when PayPal confirms payment.</p>
+                <a class="buy" href="https://keypresservip.progdomain.com/membership.html?lang=en&amp;product=keypresser&amp;tab=paypal">Continue with PayPal</a>
+            </div>
+        </section>
         <h2>Billing and support</h2>
-        <p>Checkout uses WeChat Pay and charges in Chinese yuan. Availability of an international bank card depends on what WeChat offers for your payment. For help with the software or an order, use the <a href="index-en.html#support">support channels</a>.</p>
+        <p>Domestic checkout uses Alipay and charges in Chinese yuan. For help with the software or an order, use the <a href="index-en.html#support">support channels</a>.</p>
     </main>
     <footer class="site-footer"><nav class="page-wrap" aria-label="Policies">
         <a href="terms.html">Terms of service</a>
         <a href="privacy.html">Privacy policy</a>
         <a href="refunds.html">Refund policy</a>
     </nav></footer>
+    <script>
+        fetch('https://keypresservip.progdomain.com/api/payment/paypal/config', { credentials: 'omit' })
+            .then(response => response.ok ? response.json() : null)
+            .then(config => {
+                if (config?.enabled === true && config.sandbox === false) {
+                    document.getElementById('international-membership').hidden = false;
+                }
+            })
+            .catch(() => {});
+    </script>
 </body>
 </html>
