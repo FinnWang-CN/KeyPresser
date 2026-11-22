@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Record and Replay Notepad++ Tab Clicks on Windows | KeyPresser</title>
+    <meta name="description" content="Use KeyPresser Window Recorder to record two Notepad++ tab clicks and replay them three times. Includes keyboard shortcuts, repeat settings, and troubleshooting.">
+    <link rel="canonical" href="https://keypresser.onepeak.cn/notepad-plus-plus-macro-tutorial.html">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Record and Replay Notepad++ Tab Clicks on Windows">
+    <meta property="og:description" content="Record a two-tab sequence with KeyPresser and replay it three times in the same Notepad++ window.">
+    <meta property="og:url" content="https://keypresser.onepeak.cn/notepad-plus-plus-macro-tutorial.html">
+    <meta property="og:image" content="https://keypresser.onepeak.cn/window-recorder-en.png">
+    <meta property="og:image:alt" content="KeyPresser Window Recorder configured for three repeats">
+    <link rel="icon" href="keypresser.ico">
+    <link rel="stylesheet" href="membership-pages.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Record and Replay Notepad++ Tab Clicks on Windows",
+      "image": "https://keypresser.onepeak.cn/window-recorder-en.png",
+      "inLanguage": "en",
+      "datePublished": "2026-11-22",
+      "dateModified": "2026-11-22",
+      "author": {
+        "@type": "Organization",
+        "name": "KeyPresser",
+        "url": "https://keypresser.onepeak.cn/"
+      },
+      "mainEntityOfPage": "https://keypresser.onepeak.cn/notepad-plus-plus-macro-tutorial.html"
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header"><nav class="page-wrap" aria-label="Main">
+        <a class="brand" href="index-en.html"><img src="logo.png" alt="" width="28" height="28">KeyPresser</a>
+        <a href="index-en.html#download">Download for Windows</a>
+    </nav></header>
+    <main class="page-wrap">
+        <article>
+            <h1>Record and replay Notepad++ tab clicks on Windows</h1>
+            <p>Use KeyPresser’s Window Recorder to switch between two open documents three times. The Notepad++ Macro menu records editor commands. This exercise uses a Windows mouse recording to reproduce clicks on the tab bar.</p>
+            <p><a href="https://www.youtube.com/watch?v=8nl_apTa0IA">Watch the English Notepad++ walkthrough on YouTube</a>.</p>
+            <h2>Record one round</h2>
+            <ol>
+                <li>Open two document tabs in one Notepad++ window. Bring the first tab to the front.</li>
+                <li>In KeyPresser, open <strong>Window Recorder</strong>, select <strong>Select Window</strong>, and choose the Notepad++ window. Set both keyboard and mouse input modes to <strong>Normal</strong>.</li>
+                <li>With the default shortcuts, press <kbd>F8</kbd> to start recording. Click the second tab, then the first. Press <kbd>F10</kbd> to stop and select the saved recording.</li>
+            </ol>
+            <h2>Replay the recording three times</h2>
+            <ol>
+                <li>Set <strong>Repeats</strong> to <strong>3</strong>, <strong>Speed</strong> to <strong>100%</strong>, and <strong>Pause between rounds (min)</strong> to <strong>0.02</strong> for about 1.2 seconds between rounds.</li>
+                <li>Return Notepad++ to its starting layout and press <kbd>F9</kbd>. Each round switches to the second tab and back, for six tab clicks in total.</li>
+            </ol>
+            <figure>
+                <img src="window-recorder-en.png" alt="Window Recorder showing Normal keyboard and mouse input, three repeats, a 0.02-minute pause and 100% speed" width="679" height="453" style="max-width:100%;height:auto">
+                <figcaption>Window Recorder settings for the three-round exercise.</figcaption>
+            </figure>
+            <h2>If playback clicks the wrong place</h2>
+            <p>Confirm that Window Recorder is still bound to the same Notepad++ window. Keep the tab order and widths, window size, and display scaling as they were during recording. If the layout changed, record the clicks again and test with one repeat before running three.</p>
+            <p>If a shortcut does nothing, check the shortcuts displayed in Window Recorder. The steps above use the defaults.</p>
+        </article>
+    </main>
+    <footer class="site-footer"><nav class="page-wrap" aria-label="Related pages">
+        <a href="index-en.html#modules">KeyPresser automation tools</a>
+        <a href="index-en.html#help">User guide</a>
+    </nav></footer>
+</body>
+</html>
