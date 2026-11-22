@@ -4058,6 +4058,18 @@
                 <a href="https://github.com/FinnWang-CN/KeyPresser/releases/download/v6.5.1/KeyPresser-6.5.1-help-refresh.exe" class="download-btn primary">Download for Windows · 6.5.1</a>
                 <a href="https://github.com/FinnWang-CN/KeyPresser/releases/tag/v6.5.1" class="download-btn secondary">Release notes &amp; checksum</a>
             </div>
+            <div id="paddle-membership" hidden>
+                <p>12 months of KeyPresser Professional. One-time payment, no automatic renewal.</p>
+                <a href="https://keypresservip.progdomain.com/membership.html?lang=en&amp;product=keypresser&amp;tab=paddle" class="download-btn secondary">Buy membership · US$358</a>
+            </div>
+            <script>
+                fetch('https://keypresservip.progdomain.com/api/payment/paddle/config', { credentials: 'omit' })
+                    .then(response => response.ok ? response.json() : null)
+                    .then(config => {
+                        if (config?.enabled === true) document.getElementById('paddle-membership').hidden = false;
+                    })
+                    .catch(() => {});
+            </script>
         </div>
     </section>
 
