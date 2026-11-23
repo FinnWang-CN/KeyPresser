@@ -1,20 +1,21 @@
 # KeyPresser
 
-> Official site for KeyPresser Professional and KeyPresserNext, two Windows keyboard and mouse automation tools. KeyPresser Professional provides separate automation modules. KeyPresserNext combines keyboard, mouse, and image recognition actions in one editable workflow.
-
-> KeyPresser 官网提供两款 Windows 键鼠自动化工具。KeyPresser 专业版提供独立功能模块，KeyPresserNext 将键盘、鼠标和识图动作放在同一个可编辑工作流中。
+> KeyPresser Professional and KeyPresserNext are Windows desktop automation tools. Professional separates keyboard, mouse, image recognition, and recording into modules. Next combines actions in one editable workflow. KeyPresser 专业版和 KeyPresserNext 是两款不同的 Windows 键鼠自动化工具。
 
 ## Products / 产品
 
-- [KeyPresser Professional](https://keypresser.onepeak.cn/index-en.html): Window recording and playback, background input, image recognition, Mouse Assistant, and Python scripting.
-- [KeyPresser 专业版](https://keypresser.onepeak.cn/): 窗口录制回放、后台键鼠操作、识图、鼠标助手和 Python 脚本。
-- [KeyPresserNext (English)](https://keypresser.onepeak.cn/keypresser-next-en.html): Editable recordings, sequential or independent execution, and a 15-day trial without registration. Continued use requires membership.
-- [KeyPresserNext（中文）](https://keypresser.onepeak.cn/keypresser-next.html): 录制结果可编辑，支持顺序或独立运行。新安装免注册试用 15 天，继续使用需要会员授权。
+- [KeyPresser Professional](https://keypresser.onepeak.cn/index-en.html): Windows macro recorder and keyboard and mouse automation, with English and Simplified Chinese desktop interfaces.
+- [KeyPresser 专业版](https://keypresser.onepeak.cn/): 窗口录制回放、定时按键、鼠标助手、识图和 Python 脚本。
+- [Professional 6.5.2 release and SHA-256](https://github.com/FinnWang-CN/KeyPresser/releases/tag/v6.5.2): Official English Windows download, release notes and checksum.
+- [Professional pricing in USD](https://keypresser.onepeak.cn/pricing.html): PayPal, one-time payments, no automatic renewal.
+- [KeyPresserNext English product information](https://keypresser.onepeak.cn/keypresser-next-en.html): Unified action editor, editable recordings, and a 15-day trial without registration. The desktop interface is available in Simplified Chinese.
+- [KeyPresserNext 中文介绍](https://keypresser.onepeak.cn/keypresser-next.html): 编辑键鼠和识图动作，支持顺序与独立运行。
 
-## Setup and answers / 接入与常见问题
+## Tutorials and answers / 教程与解答
 
-- [MCP and DeepSeek Harness setup](https://keypresser.onepeak.cn/keypresser-next-en.html#agent): Connect an agent to bind windows, edit action rows, run scripts, and test input.
-- [MCP 与 DeepSeek Harness 接入](https://keypresser.onepeak.cn/keypresser-next.html#agent): 绑定窗口、编辑动作行、运行脚本和测试键鼠。
-- [KeyPresser FAQ](https://keypresser.onepeak.cn/index-en.html#faq) · [KeyPresser 常见问题](https://keypresser.onepeak.cn/#faq)
-- [KeyPresserNext FAQ](https://keypresser.onepeak.cn/keypresser-next-en.html#faq) · [KeyPresserNext 常见问题](https://keypresser.onepeak.cn/keypresser-next.html#faq)
-- [Extended product reference / 产品详细说明](https://keypresser.onepeak.cn/llms-full.txt)
+- [Record and replay Notepad++ tab clicks](https://keypresser.onepeak.cn/notepad-plus-plus-macro-tutorial.html): Record two clicks and replay the sequence three times using Window Recorder.
+- [Repeat a key at a fixed interval on Windows](https://keypresser.onepeak.cn/repeat-keypresses-windows.html): Configure a key row for a 1,000 ms interval in Notepad.
+- [Professional FAQ](https://keypresser.onepeak.cn/index-en.html#faq) · [专业版常见问题](https://keypresser.onepeak.cn/#faq)
+- [KeyPresserNext FAQ](https://keypresser.onepeak.cn/keypresser-next-en.html#faq) · [Next 常见问题](https://keypresser.onepeak.cn/keypresser-next.html#faq)
+- [Next MCP and DeepSeek Harness setup](https://keypresser.onepeak.cn/keypresser-next-en.html#agent) · [Next MCP 与 DeepSeek Harness 接入](https://keypresser.onepeak.cn/keypresser-next.html#agent)
+- [Detailed product reference / 产品详细说明](https://keypresser.onepeak.cn/llms-full.txt)
