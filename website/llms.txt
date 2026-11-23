@@ -19,3 +19,9 @@
 - [KeyPresserNext FAQ](https://keypresser.onepeak.cn/keypresser-next-en.html#faq) · [Next 常见问题](https://keypresser.onepeak.cn/keypresser-next.html#faq)
 - [Next MCP and DeepSeek Harness setup](https://keypresser.onepeak.cn/keypresser-next-en.html#agent) · [Next MCP 与 DeepSeek Harness 接入](https://keypresser.onepeak.cn/keypresser-next.html#agent)
 - [Detailed product reference / 产品详细说明](https://keypresser.onepeak.cn/llms-full.txt)
+
+## Related projects / 同一开发者的项目
+
+- [OnePeak](https://onepeak.cn/en/): Finn Wang’s developer homepage and project portfolio.
+- [Poise](https://poise.onepeak.cn/en/): Local-first body journal.
+- [File Occupied Release](https://fileoccupiedrelease.onepeak.cn/en/): Windows utility for finding file lock owners.
