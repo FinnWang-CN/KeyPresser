@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Repeat a Key Every Second on Windows | KeyPresser</title>
+    <meta name="description" content="Set KeyPresser to repeat a key every second in a Windows text editor. Learn which interval values to set, how to stop, and when to use Independent or Sequential mode.">
+    <link rel="canonical" href="https://keypresser.onepeak.cn/repeat-keypresses-windows.html">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Repeat a key every second on Windows">
+    <meta property="og:description" content="Set a fixed interval, run one key row in a test editor, and stop it with a hotkey.">
+    <meta property="og:url" content="https://keypresser.onepeak.cn/repeat-keypresses-windows.html">
+    <meta property="og:image" content="https://keypresser.onepeak.cn/carousel/keypresser-keyboard-en.png">
+    <meta property="og:image:alt" content="English KeyPresser keyboard automation panel with both interval bounds set to 1000 ms">
+    <link rel="icon" href="keypresser.ico">
+    <link rel="stylesheet" href="membership-pages.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Repeat a key every second on Windows",
+      "image": "https://keypresser.onepeak.cn/carousel/keypresser-keyboard-en.png",
+      "inLanguage": "en",
+      "datePublished": "2026-11-23",
+      "author": {
+        "@type": "Organization",
+        "name": "KeyPresser",
+        "url": "https://keypresser.onepeak.cn/"
+      },
+      "mainEntityOfPage": "https://keypresser.onepeak.cn/repeat-keypresses-windows.html"
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header"><nav class="page-wrap" aria-label="Main">
+        <a class="brand" href="index-en.html"><img src="logo.png" alt="" width="28" height="28">KeyPresser</a>
+        <a href="index-en.html#download">Download for Windows</a>
+    </nav></header>
+    <main class="page-wrap">
+        <article>
+            <h1>Repeat a key every second on Windows</h1>
+            <p>Use KeyPresser to type the digit <kbd>1</kbd> about once per second in a blank Notepad document. A blank document makes it easy to confirm the interval before using your own shortcut.</p>
+            <h2>Set a 1,000 ms interval</h2>
+            <ol>
+                <li>Open a blank Notepad document. From the KeyPresser home screen, open <strong>KeyPresser</strong>, then use <strong>Select Window</strong> to choose Notepad.</li>
+                <li>Choose <strong>Independent</strong> under <strong>Trigger Mode</strong> and <strong>Normal</strong> under <strong>Keyboard Simulation</strong>.</li>
+                <li>Enable one row under <strong>Custom keys</strong>. Activate its key field and press <kbd>1</kbd> to capture the digit. Leave <strong>Hold</strong> unchecked and turn off any other rows and the separate spacebar option.</li>
+                <li>Set the two interval fields on that row to <strong>1000</strong> and <strong>1000</strong>. Both values are in milliseconds.</li>
+                <li>Click inside the blank document to give it focus. Press the shortcut shown next to <strong>Start/stop hotkey</strong>, which is <kbd>Home</kbd> in the screenshot. Let a few digits appear, then press the same shortcut to stop.</li>
+            </ol>
+            <figure>
+                <img src="carousel/keypresser-keyboard-en.png" alt="KeyPresser keyboard panel with Independent mode, Normal keyboard simulation, and a 1000 to 1000 ms interval" width="540" height="800" style="max-width:100%;height:auto">
+                <figcaption>This English interface example shows the two interval fields on a Ctrl+S row. Capture <kbd>1</kbd> in that field for this exercise.</figcaption>
+            </figure>
+            <h2>Adjust the timing or repeat a shortcut</h2>
+            <p>To repeat every two seconds, enter <strong>2000</strong> in both interval fields. Different bounds allow the delay to vary. <strong>Hold duration</strong> controls how long each press lasts. Use the interval fields to control the pause between presses.</p>
+            <p>To repeat a shortcut, stop the run first, capture the key combination in the same row, and test it in the intended application. Choose <strong>Sequential</strong> when enabled rows should run in order. In <strong>Independent</strong> mode, each enabled row has its own timer.</p>
+            <h2>If the digit does not appear</h2>
+            <p>Make sure the document has focus, the correct window is selected, and the key row is enabled. Check the configured start and stop hotkey. Normal keyboard simulation uses foreground input, so keep the editor in front during this test.</p>
+            <p>To repeat a sequence of mouse and keyboard actions, follow the <a href="notepad-plus-plus-macro-tutorial.html">Notepad++ recording and playback tutorial</a>.</p>
+        </article>
+    </main>
+    <footer class="site-footer"><nav class="page-wrap" aria-label="Related pages">
+        <a href="index-en.html#download">Download KeyPresser Professional</a>
+        <a href="index-en.html#help">User guide</a>
+    </nav></footer>
+</body>
+</html>
