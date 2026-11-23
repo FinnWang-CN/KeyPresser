@@ -1,17 +1,28 @@
-简体中文 | [English](readme.en.md)
+English | [简体中文](readme.zh-CN.md)
 
-## 1. 简介
-- KeyPresser 是一款开源的自动化按键工具，它可以与窗口交互，并支持后台运行, 无需保持被控窗口在前台运行。用户可以选择要操作的目标窗口，并通过勾选复选框来控制要发送哪些按键消息。可以从组合框中选择所需的按键，并在编辑框中输入时间间隔以控制按键发送之间的延迟。程序提供“开始”和“停止”按钮来启动和终止按键发送过程。
-- **免费版：请自行下载仓库源代码，自行编译出程序！**
-- 最新专业版下载：[https://keypresser.onepeak.cn/](https://keypresser.onepeak.cn/)
-## 2. 开源版本
-**已开源代码，可下载源代码，自行编译出程序！**<br/>
-## 3. Pro专业版
-<img width="1693" height="949" alt="image" src="https://github.com/user-attachments/assets/8afebed0-6851-4cd5-81ca-5efc17cc5e42" />
+# KeyPresser
 
-## 4. 需要更多功能，请联系我，定制开发
-- 微信：FinnSoft
+## 1. Overview
 
-## 官网维护
+KeyPresser is an open-source Windows tool for automating keystrokes. It can send input to a selected window while that window is in the background.
 
-官网静态文件位于 [`website/`](website/README.md)，由本仓库 GitHub Pages 自动部署，访问地址保持 https://keypresser.onepeak.cn/ 。
+Choose a target window, use the checkboxes to select which keyboard messages to send, and pick a key from the dropdown. Set the interval between keystrokes, then use **Start** and **Stop** to control playback.
+
+- **Free edition:** Download the source code from this repository and build it yourself.
+- **Professional edition:** [Download from the official website](https://keypresser.onepeak.cn/index-en.html#download).
+
+## 2. Open-source edition
+
+The source code for the free edition is available in this repository under the [MIT License](LICENSE).
+
+## 3. Professional edition
+
+<img width="1693" height="949" alt="KeyPresser Professional interface" src="https://github.com/user-attachments/assets/8afebed0-6851-4cd5-81ca-5efc17cc5e42" />
+
+## 4. Custom development
+
+For additional features or custom development, contact **FinnSoft** on WeChat.
+
+## Website maintenance
+
+The official website is deployed from [`website/`](website/README.md) in this repository using GitHub Pages. Its public address remains https://keypresser.onepeak.cn/.
