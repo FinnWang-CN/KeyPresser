@@ -15,7 +15,13 @@ Choose a target window, use the checkboxes to select which keyboard messages to 
 
 The source code for the free edition is available in this repository under the [MIT License](LICENSE).
 
-## 3. Professional edition
+## 3. Professional edition — Windows macro recorder
+
+KeyPresser Professional is a separate commercial edition with window-specific keyboard and mouse recording and playback, image recognition, Mouse Assistant and Python scripting. Background input compatibility depends on the target application and input mode.
+
+**[Download for Windows — free 3-day trial](https://keypresser.onepeak.cn/index-en.html#download)** | [Pricing](https://keypresser.onepeak.cn/pricing.html) | [Release notes and checksums](https://github.com/FinnWang-CN/KeyPresser/releases) | [Notepad++ recording tutorial](https://keypresser.onepeak.cn/notepad-plus-plus-macro-tutorial.html)
+
+The MIT license applies to the open-source edition in this repository, not the separate Professional installer.
 
 <img width="1693" height="949" alt="KeyPresser Professional interface" src="https://github.com/user-attachments/assets/8afebed0-6851-4cd5-81ca-5efc17cc5e42" />
 
