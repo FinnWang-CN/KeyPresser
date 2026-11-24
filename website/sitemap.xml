@@ -52,4 +52,46 @@
     <loc>https://keypresser.onepeak.cn/refunds.html</loc>
     <lastmod>2026-11-22</lastmod>
   </url>
+  <url>
+    <loc>https://keypresser.onepeak.cn/background-macro-recorder.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keypresser.onepeak.cn/background-macro-recorder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://keypresser.onepeak.cn/background-macro-recorder-zh.html"/>
+  </url>
+  <url>
+    <loc>https://keypresser.onepeak.cn/background-macro-recorder-zh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keypresser.onepeak.cn/background-macro-recorder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://keypresser.onepeak.cn/background-macro-recorder-zh.html"/>
+  </url>
+  <url>
+    <loc>https://keypresser.onepeak.cn/window-macro-recorder.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keypresser.onepeak.cn/window-macro-recorder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://keypresser.onepeak.cn/window-macro-recorder-zh.html"/>
+  </url>
+  <url>
+    <loc>https://keypresser.onepeak.cn/window-macro-recorder-zh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keypresser.onepeak.cn/window-macro-recorder.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://keypresser.onepeak.cn/window-macro-recorder-zh.html"/>
+  </url>
+  <url>
+    <loc>https://keypresser.onepeak.cn/automate-repetitive-office-tasks.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keypresser.onepeak.cn/automate-repetitive-office-tasks.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://keypresser.onepeak.cn/automate-repetitive-office-tasks-zh.html"/>
+  </url>
+  <url>
+    <loc>https://keypresser.onepeak.cn/automate-repetitive-office-tasks-zh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keypresser.onepeak.cn/automate-repetitive-office-tasks.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://keypresser.onepeak.cn/automate-repetitive-office-tasks-zh.html"/>
+  </url>
+  <url>
+    <loc>https://keypresser.onepeak.cn/image-recognition-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keypresser.onepeak.cn/image-recognition-automation.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://keypresser.onepeak.cn/image-recognition-automation-zh.html"/>
+  </url>
+  <url>
+    <loc>https://keypresser.onepeak.cn/image-recognition-automation-zh.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://keypresser.onepeak.cn/image-recognition-automation.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://keypresser.onepeak.cn/image-recognition-automation-zh.html"/>
+  </url>
+  <url><loc>https://keypresser.onepeak.cn/tinytask-alternative.html</loc></url>
+  <url><loc>https://keypresser.onepeak.cn/autohotkey-alternative.html</loc></url>
 </urlset>
